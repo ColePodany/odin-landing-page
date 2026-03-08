@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.hlogo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+header, main { 
+    background-color: #1f2937;
+    display: flex;
+}
+
+main {
+    background-color: #1f2937;
+    flex-direction: column;
+    gap: 10px;
+    padding: 60px;
+}
+
+header{ 
+      justify-content: space-between;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    padding:0;
+    gap:15px;
+}
+
+.awesome {
+    color: #f9faf8; 
+    font-weight: 900;
+    font-size: 28px;
+}
+
+nav a{
+    color: #efe7eb;
+    font-size: 18px;
+}
+    
+
+button.signup {
+    background-color: #3882f6;
+    width:200px;
+}
+
+.shark {
+    width: 300px;
+    border-radius: 10px;
+}
