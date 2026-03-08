@@ -12,7 +12,7 @@ body{
     color: #f9faf8;
     font-size: 24px;
     font-weight: 900;
-    margin: 10px 310px 0px 500px;
+    margin: 10px 300px 0px 550px;
     white-space: nowrap;
 }
 
@@ -141,7 +141,7 @@ button.signup2 {
       max-width: 1000px;
       object-fit: cover;
       margin: 0px 0px 0px -100px;
-
+      border-radius: 2px;
 }
 
 .quote{
@@ -157,14 +157,15 @@ button.signup2 {
     margin: 35px 300px 0 300px;
     max-width: 100%;
     display: block;
+    font-style: italic;
 }
 
 .quote p{
     text-align: right;
     font-size: 18px;
     color: #1f2937;
-    font-weight: 300;
-    margin: 0 100px 35px 0;
+    font-weight: 900;
+    margin: 25px 365px 35px 0;
 }
 
 .ctasection{
