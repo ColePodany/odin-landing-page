@@ -13,12 +13,12 @@ body{
     font-family: Roboto;
 }
 
-.hlogo {
-    color: #f9faf8;
-    font-size: 24px;
-    font-weight: 900;
-    white-space: nowrap;
+
+.sharklogo {
+    height: 70px;
+    width: auto;
 }
+
 
 header{
     background-color:#1f2937;
@@ -210,7 +210,6 @@ button.signup2 {
     align-items: center;
     gap: 10px;
 }
-
 
 .navlist {
     color: white;
