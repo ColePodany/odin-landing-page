@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
 body{
     font-family: Roboto;
 }
@@ -12,30 +17,32 @@ body{
     color: #f9faf8;
     font-size: 24px;
     font-weight: 900;
-    margin: 10px 300px 0px 550px;
     white-space: nowrap;
 }
 
-header { 
-    background-color: #1f2937;
-    display: flex;
-    justify-content: center;
+header{
+    background-color:#1f2937;
+}
+
+.header-inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
 }
 
 main {
     background-color: #1f2937;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     gap: 10px;
-    padding: 60px;
+    padding: 60px 20px;
 }
 
 nav ul{
     display:flex;
     list-style:none;
-    padding:0;
     gap:15px;
-    margin: 10px 330px;
     white-space: nowrap;
 }
 
@@ -68,6 +75,7 @@ button.signup2 {
     border-radius: 4px;
     color: white;
 }
+
 
 .info h2{
     text-align:center;
@@ -109,11 +117,10 @@ button.signup2 {
 
 
 .mainsection{
-    display: flex;
-    flex-direction: row;
-    margin: 0 0 0 200px;
-    align-items: center;
-    justify-content: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
 }
 
 .mainsection p{
@@ -132,7 +139,7 @@ button.signup2 {
 }
 
 .mainpic{ 
-    margin: 20px 0 0 200px;
+    margin: 20px 0 0 0;
     padding: 5px;
 }
 
@@ -140,19 +147,20 @@ button.signup2 {
       max-height: 300px;
       max-width: 1000px;
       object-fit: cover;
-      margin: 0px 0px 0px -100px;
       border-radius: 2px;
 }
 
 .quote{
     background-color: #e5e7eb;
+    background-image: url('ocean.jpg');
+    background-size: cover;
     padding: 100px;
 }
 
 .quote h3{ 
     text-align: center;
     font-size: 36px;
-    color: #1f2937;
+    color: white;
     font-weight: 300;
     margin: 35px 300px 0 300px;
     max-width: 100%;
@@ -163,7 +171,7 @@ button.signup2 {
 .quote p{
     text-align: right;
     font-size: 18px;
-    color: #1f2937;
+    color: whitesmoke;
     font-weight: 900;
     margin: 25px 365px 35px 0;
 }
@@ -172,14 +180,17 @@ button.signup2 {
     max-width: 150px;
 }
 
-.cta {
- display: flex;
-  flex-direction: row;
-    background: #3882f6;
-    align-items: center;
-    justify-content: center;
-    margin: 100px 500px 50px 500px;
-    max-width: 100%;
+.cta{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    max-width:900px;
+    margin:100px auto;
+    padding:40px 60px;
+
+    background:#3882f6;
+    border-radius:8px;
 }
 
 .ctatext {
@@ -192,4 +203,18 @@ button.signup2 {
 .ctabutton{
     justify-content: center;
     margin: 0 0 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.navlist {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
 }
